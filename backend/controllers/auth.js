@@ -15,6 +15,6 @@ export const register =(req, res)=>{
     export const logout =(req, res)=>{
     
     
-    }
+    }   
     
     
