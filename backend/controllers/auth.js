@@ -1,4 +1,4 @@
-import { db } from "../db"
+
 
 
 export const register =(req, res)=>{
