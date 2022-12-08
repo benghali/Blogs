@@ -33,6 +33,7 @@ const {login}= useContext(AuthContext);
     <input required type="password" placeholder='password'  onChange ={handleChange}/>
     <button OnClick = {handleSubmit}>Login</button>
     { err && <p>{err}</p>}
+
     <span> you don't have an account <Link to="/register">Register</Link></span>
      </form>
         </div>
